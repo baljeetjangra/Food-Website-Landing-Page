@@ -6,8 +6,15 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Healthy Eats</title>
         <link rel="stylesheet" href="./css/style.css">
+
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+        <div class="overlay" id="overlay">
+            <h3>Searching For Food <i class="fa fa-cutlery"
+                    aria-hidden="true"></i></h3>
+        </div>
         <main class="main-bg">
             <section class="top">
                 <header>
@@ -24,7 +31,8 @@
                             <input type="text" name="city" id="city">
                             <p>For Example : "Chandigarh"</p>
                         </div>
-                        <input type="button" value="Find Food Now">
+                        <input type="button" value="Find Food Now"
+                            id="find-btn">
                     </form>
                 </div>
             </section>
@@ -41,5 +49,6 @@
             </div>
             <img src="./images/platter.jpg" alt="Food-Picture">
         </section>
+        <script src="./js/app.js"></script>
     </body>
 </html>
